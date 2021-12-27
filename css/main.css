@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(29, 12, 131);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.container {
+  height: 100vh;
+  background-image: url(/Images/bg.jpg);
+  background-size: cover;
+}
+#navbar {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+#navbar .logo {
+  font-weight: 700;
+  padding: 25px 0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+#navbar .logo .logo-color {
+  color: rgb(0, 116, 224);
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-left: 50vw;
+  padding: 36px 0;
+}
+#navbar ul li {
+  margin: 0 15px;
+}
+#navbar p {
+  padding: 8px;
+  border: rgb(0, 87, 168);
+  border-radius: 8px;
+  border-style: solid;
+  margin: auto 5px;
+  color: rgb(0, 116, 224);
+  font-weight: 700;
+}
+.profile-info {
+  text-align: center;
+  margin-top: 15vh;
+}
+.profile-info img {
+  height: 230px;
+  width: 230px;
+  border-radius: 115px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: rgb(0, 116, 224);
+}
+.skills {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -5px;
+}
+.scroll {
+  margin-top: 30vh;
+}
