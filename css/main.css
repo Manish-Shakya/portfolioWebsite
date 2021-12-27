@@ -8,6 +8,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 .container-main {
   height: 100vh;
   background-image: url(/Images/bg.jpg);
@@ -37,14 +41,18 @@ body {
 #navbar ul li {
   margin: 0 15px;
 }
-#navbar p {
+#navbar .contact {
   padding: 8px;
-  border: rgb(0, 87, 168);
+  border: rgb(0, 116, 224);
   border-radius: 8px;
   border-style: solid;
   margin: auto 5px;
   color: rgb(0, 116, 224);
   font-weight: 700;
+}
+#navbar .contact:hover {
+  color: white;
+  background-color: rgb(0, 116, 224);
 }
 .profile-info {
   text-align: center;
@@ -73,32 +81,32 @@ body {
 .scroll {
   margin-top: 30vh;
 }
-.container-about {
+.container {
   padding: 150px;
   padding-top: 200px;
   display: flex;
   flex-direction: row;
   background-image: url(/Images/bg2.jpg);
 }
-.container-about .sidebar {
+.container .sidebar {
   border: #051423;
   padding: 5px;
   border-style: solid;
   box-shadow: 0 0 5px rgb(105, 96, 155);
 }
-.container-about .sidebar img {
+.container .sidebar img {
   width: 500px;
 }
-.container-about .main {
+.container .main {
   margin-left: 60px;
   font-family: "Lato", sans-serif;
 }
-.discover {
+.heading {
   color: rgb(0, 116, 224);
   font-weight: 700;
   font-size: 30px;
 }
-.main h1 {
+h1 {
   font-size: 50px;
   font-weight: 500;
   margin: 5px 0;
@@ -134,4 +142,28 @@ button {
   border-radius: 5px;
   text-decoration: none;
   border: none;
+}
+button:hover {
+  background-color: white;
+  color: rgb(0, 116, 224);
+  cursor: pointer;
+}
+.container-services {
+  background-image: url(/Images/bg3.jpg);
+  height: 100vh;
+  flex-direction: column;
+}
+.row-custom {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  border: #0074e0;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 2px;
+  padding: 40px;
+  margin: 20px;
+}
+.icons {
 }
